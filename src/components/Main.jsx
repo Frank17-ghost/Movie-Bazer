@@ -196,10 +196,12 @@ function Main() {
               <div key={index} className="group cursor-pointer">
 
                 <img
-                  src={`https://image.tmdb.org/t/p/w500/${movie.image}`}
-                  alt={movie.title}
-                  className="w-full aspect -[2/3] object-cover rounded-sm group-hover:scale-105 transition duration-300"
-                />
+                   src={`https://image.tmdb.org/t/p/w500/${movie.image}`}
+                   alt={movie.title}
+                 onError={(e) => {
+               e.currentTarget.src = "/fallback.jpg";
+        }}
+/>
 
                 <h3 className="text-sm mt-3 truncate">
                   {movie.title}
