@@ -1,3 +1,4 @@
+import { useState } from 'react';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -74,4 +75,3 @@ function Header() {
 }
 
 export default Header;
-```
