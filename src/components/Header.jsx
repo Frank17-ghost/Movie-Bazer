@@ -1,5 +1,3 @@
-```jsx
-import { useState } from "react";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
