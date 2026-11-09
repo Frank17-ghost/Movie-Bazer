@@ -13,7 +13,7 @@ function Main() {
         <h1 className="text-4xl md:text-5xl lg:text-[48px] font-black uppercase leading-[1.05] tracking-tight whitespace-nowrap">
 
           <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-transparent bg-clip-text">
-            TV SHOWS AND MORE
+            TV SHOWS <br></br> AND MORE
           </span>
 
         </h1>
